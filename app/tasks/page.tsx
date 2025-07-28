@@ -62,7 +62,7 @@ const handleCancelEdit = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.backButton}>
-        ← Back
+        Log Out
       </Link>
       <h1 className={styles.heading}>Task Dashboard</h1>
       <form onSubmit={handleAddTask} className={styles.form}>

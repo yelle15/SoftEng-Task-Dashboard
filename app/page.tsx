@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "../utils/supabaseClient";
-import styles from "./page.module.css"; // Import your CSS module
+import styles from "./page.module.css"; 
 
 export default function Home() {
   const [email, setEmail] = useState("");

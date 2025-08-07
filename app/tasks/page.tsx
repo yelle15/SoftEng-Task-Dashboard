@@ -90,7 +90,7 @@ return () => {
 
   // Save edited task
   const handleSaveEdit = async (id: string) => {
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from("tasks")
       .update({ title: editedTitle, description: editedDescription })
       .eq("id", id)
